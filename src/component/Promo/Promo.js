@@ -1,5 +1,7 @@
 import React from "react";
 import "./Promo.css";
+import Marquee from "react-fast-marquee";
+const TEXT = 'Только практический опыт студийных проектов и важные новости рынка'
 
 function Promo() {
   return (
@@ -17,10 +19,13 @@ function Promo() {
         <div className="promo__heart promo__heart_type_big" />
         <div className="promo__like" />
         <div className="promo__text-wrapper">
-          <p className="promo__scroll-text">
-            Только практический опыт студийных проектов и важные новости рынка
-            Только практический опыт студийных проектов и важные новости рынка
-          </p>
+          <Marquee
+          direction={'right'}
+          gradient={false}
+          speed={80}
+          >
+            <p className="promo__scroll-text">{TEXT} </p>
+          </Marquee>
         </div>
       </div>
     </div>

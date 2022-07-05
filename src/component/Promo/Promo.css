@@ -1,3 +1,14 @@
+@keyframes animMarquee {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+
 .promo {
   overflow: hidden;
   position: relative;
@@ -5,12 +16,10 @@
 }
 
 .promo__container {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .promo__title {
@@ -44,6 +53,16 @@
   top: 280.78px;
 }
 
+.promo__circle_type_big::before {
+  content: "";
+  position: absolute;
+  background-image: url(../../images/bigCircle.svg);
+  width: 759.56px;
+  height: 759.56px;
+  right: -44.37px;
+  top: -44.37px;
+}
+
 .promo__letter {
   background: url(../../images/letter.svg) no-repeat center;
   position: absolute;
@@ -64,4 +83,60 @@
   right: 103.81px;
   top: 61.28px;
   transform: rotate(339deg);
+}
+.promo__heart {
+  position: absolute;
+}
+
+.promo__heart_type_big {
+  background: url(../../images/heart.svg) no-repeat center;
+  width: 212px;
+  height: 171px;
+  left: 202px;
+  top: 491px;
+  z-index: 2;
+}
+
+.promo__heart_type_small {
+  background: url(../../images/heart_small.svg) no-repeat center;
+  width: 87px;
+  height: 70px;
+  right: 527.15px;
+  top: 390px;
+  transform: rotate(-18.7deg);
+}
+
+.promo__like {
+  position: absolute;
+  background: url(../../images/like.svg) no-repeat center;
+  width: 206px;
+  height: 152px;
+  right: 179px;
+  top: 329px;
+  transform: rotate(11.46deg);
+}
+
+.promo__text-wrapper {
+  position: absolute;
+  top: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1920px;
+  height: 97px;
+  background: #fbd748;
+  box-shadow: 0px 0px 1px rgba(0, 20, 51, 0.3),
+    0px 6px 16px rgba(0, 20, 51, 0.15);
+  transform: rotate(-5deg);
+  white-space: nowrap;
+}
+
+.promo__scroll-text {
+  margin: 0;
+  font-family: "AeroportMono";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 49px;
+  color: #000000;
 }
