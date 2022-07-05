@@ -1,0 +1,67 @@
+.promo {
+  overflow: hidden;
+  position: relative;
+  padding: 0 calc(15px + (413 - 15) * ((100vw - 360px) / (1920 - 360))) 0;
+}
+
+.promo__container {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.promo__title {
+  margin: 164px 0 549px;
+  font-family: "EastmanMedium";
+  text-align: center;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 86px;
+  color: #000000;
+}
+
+.promo__circle {
+  position: absolute;
+  background: linear-gradient(131.3deg, #15b68e 8.56%, #93e736 87.99%);
+  transform: rotate(37.41deg);
+  border-radius: 50%;
+}
+
+.promo__circle_type_small {
+  width: 362.43px;
+  height: 362.43px;
+  left: -159.18px;
+  top: 50.82px;
+}
+
+.promo__circle_type_big {
+  width: 670.81px;
+  height: 670.81px;
+  right: -253.38px;
+  top: 280.78px;
+}
+
+.promo__letter {
+  background: url(../../images/letter.svg) no-repeat center;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.promo__letter_type_big {
+  width: 209px;
+  height: 168px;
+  left: 77.19px;
+  top: 119.68px;
+  transform: rotate(4deg);
+}
+
+.promo__letter_type_small {
+  width: 163.43px;
+  height: 131.37px;
+  right: 103.81px;
+  top: 61.28px;
+  transform: rotate(339deg);
+}

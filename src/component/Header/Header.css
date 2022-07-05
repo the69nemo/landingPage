@@ -1,0 +1,44 @@
+.header {
+  margin: 40px auto 0;
+  padding: 0 calc(15px + (202 - 15) * ((100vw - 360px) / (1920 - 360))) 0;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__link {
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+
+.header__link:hover {
+  opacity: 0.8;
+}
+
+.header__logo {
+  width: 179px;
+  height: 60px;
+}
+
+.header__button {
+  cursor: pointer;
+  border: 0;
+  width: 305px;
+  height: 52px;
+  background: linear-gradient(91.65deg, #93e736 -28.46%, #13a16c 105.66%);
+  border-radius: 50px;
+  font-family: "EastmanMedium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  transition: opacity 0.2s linear;
+}
+
+.header__button:hover {
+  opacity: 0.8;
+}
