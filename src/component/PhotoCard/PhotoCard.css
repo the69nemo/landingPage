@@ -1,0 +1,35 @@
+.photo-card {
+  max-height: 500px;
+  max-width: 450px;
+}
+
+.photo-card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-card__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.photo-card__name {
+  margin: 22px 0 0;
+  font-family: "EastmanBold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.photo-card__discription {
+  margin: 12px 0 0;
+  font-family: "EastmanRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}

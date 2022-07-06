@@ -1,11 +1,12 @@
 import React from "react";
 import "./Promo.css";
 import Marquee from "react-fast-marquee";
-const TEXT = 'Только практический опыт студийных проектов и важные новости рынка'
+const TEXT =
+  "Только практический опыт студийных проектов и важные новости рынка";
 
 function Promo() {
   return (
-    <div className="promo">
+    <section className="promo">
       <div className="promo__container">
         <h1 className="promo__title">
           Профессиональная рассылка для владельцев спортивных студий от
@@ -19,16 +20,12 @@ function Promo() {
         <div className="promo__heart promo__heart_type_big" />
         <div className="promo__like" />
         <div className="promo__text-wrapper">
-          <Marquee
-          direction={'right'}
-          gradient={false}
-          speed={80}
-          >
-            <p className="promo__scroll-text">{TEXT} </p>
+          <Marquee direction={"right"} gradient={false} speed={100}>
+            <p className="promo__scroll-text">{TEXT}</p>
           </Marquee>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
