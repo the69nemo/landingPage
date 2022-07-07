@@ -4,6 +4,7 @@ import Promo from "../Promo/Promo";
 import BuisnessProblem from "../BuisnessProblem/BuisnessProblem";
 import PhotoSlider from "../PhotoSlider/PhotoSlider";
 import AboutUs from "../AboutUs/AboutUs";
+import WhatIsIt from "../WhatIsIt/WhatIsIt";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <BuisnessProblem />
       <PhotoSlider />
       <AboutUs />
+      <WhatIsIt />
     </div>
   );
 }

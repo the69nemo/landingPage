@@ -1,6 +1,4 @@
 .promo {
-
-  overflow: hidden;
   position: relative;
   padding: 0 calc(15px + (413 - 15) * ((100vw - 360px) / (1920 - 360))) 0;
 }

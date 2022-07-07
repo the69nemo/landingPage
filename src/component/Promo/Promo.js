@@ -1,8 +1,7 @@
 import React from "react";
 import "./Promo.css";
 import Marquee from "react-fast-marquee";
-const TEXT =
-  "Только практический опыт студийных проектов и важные новости рынка";
+import { TEXT } from '../../utils/constants'
 
 function Promo() {
   return (

@@ -1,0 +1,64 @@
+.what-is-it {
+  padding-left: calc(15px + (329 - 15) * ((100vw - 360px) / (1920 - 360)));
+}
+
+.what-is-it__container {
+  max-width: 1490px;
+  display: flex;
+}
+
+.what-is-it__text-wrapper {
+  max-width: 729px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 199px;
+}
+
+.what-is-it__title {
+  margin: 0 0 30px;
+  font-family: "EastmanBold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 86px;
+}
+
+.what-is-it__discription {
+  margin: 0;
+  font-family: "EastmanRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.what-is-it__discription:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.what-is-it__image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.what-is-it__circle {
+  position: relative;
+  width: 415px;
+  height: 415px;
+  border-radius: 50%;
+  background: linear-gradient(131.3deg, #15b68e 8.56%, #93e736 87.99%);
+  box-shadow: -2px 2px 60px #1dc299;
+}
+
+.what-is-it__circle::before {
+  position: absolute;
+  content: '';
+  background: url(../../images/three_cirсle.png) no-repeat center;
+  object-fit: fill;
+  width: 933px;
+  height: 933px;
+  top: -259px;
+  left: -259px;
+}
