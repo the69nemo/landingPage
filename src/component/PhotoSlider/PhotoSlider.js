@@ -1,6 +1,5 @@
 import React from "react";
 import "./PhotoSlider.css";
-import Exampel from "../../images/photo_0png.png";
 import PhotoCard from "../PhotoCard/PhotoCard";
 import { sliderData } from "../../utils/photoSliderData";
 import Slider from "react-slick";
