@@ -1,4 +1,3 @@
-import React from 'react';
 import './PhotoCard.css';
 
 function PhotoCard({ card }) {
