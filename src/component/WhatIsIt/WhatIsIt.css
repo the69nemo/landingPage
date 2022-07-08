@@ -62,3 +62,7 @@
   top: -259px;
   left: -259px;
 }
+
+.what-is-it__circle__text-on-circle {
+  position: absolute;
+}

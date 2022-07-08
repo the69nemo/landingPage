@@ -27,6 +27,9 @@ function WhatIsIt() {
         </div>
         <div className="what-is-it__image-wrapper">
           <div className="what-is-it__circle" />
+          <div className="what-is-it__circle__text-on-circle type-1"></div>
+          <div className="what-is-it__circle__text-on-circle type-2"></div>
+          <div className="what-is-it__circle__text-on-circle type-3"></div>
         </div>
       </div>
     </section>
