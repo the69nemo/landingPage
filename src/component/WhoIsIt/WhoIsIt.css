@@ -1,0 +1,118 @@
+.who-is-it {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 229px 0 140px;
+}
+
+.who-is-it__container {
+  max-width: 1430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.who-is-it__title {
+  margin: 0 0 30px;
+  font-family: "EastmanBold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 86px;
+  color: #15b68e;
+}
+
+.who-is-it__discripton {
+  margin: 0 0 45px;
+  max-width: 1000px;
+  font-family: "EastmanRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.who-is-it__stat-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  margin: 10px 0;
+  position: relative;
+  min-width: 1429px;
+  min-height: 346px;
+  background: url(../../images/bacground_who_is_it.png) no-repeat center;
+}
+
+.who-is-it__stat-wrapper::after {
+  position: absolute;
+  content: "";
+  background: url(../../images/bacground-border_who_is_it.png) no-repeat center;
+  background-size: cover;
+  min-width: 1435px;
+  min-height: 380px;
+  top: -15px;
+  left: 0;
+  z-index: 2;
+}
+
+.who-is-it__stat-wrapper::before {
+  position: absolute;
+  content: "";
+  background: url(../../images/like_rotate.png) no-repeat center;
+  background-size: cover;
+  min-width: 229px;
+  min-height: 190px;
+  top: 120px;
+  left: -72px;
+  transform: rotate(-32.91deg);
+  z-index: 3;
+}
+
+.who-is-it__stat-title {
+  margin: 58px 0 0;
+  font-family: "EastmanBold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 40px;
+}
+
+.who-is-it__stat-cards {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 45px;
+  max-width: 728px;
+}
+
+.who-is-it__stat-card {
+  max-width: 316px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.who-is-it__stat-card:not(:last-child) {
+  margin-right: 200px;
+}
+
+.who-is-it__stat-card-tite {
+  margin: 0 0 10px;
+  font-family: "EastmanBold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.who-is-it__stat-card-discription {
+  margin: 0;
+  font-family: "EastmanRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}

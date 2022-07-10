@@ -6,6 +6,7 @@ import PhotoSlider from "../PhotoSlider/PhotoSlider";
 import AboutUs from "../AboutUs/AboutUs";
 import WhatIsIt from "../WhatIsIt/WhatIsIt";
 import Mailing from "../Mailing/Mailing";
+import WhoIsIt from "../WhoIsIt/WhoIsIt";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <AboutUs />
       <WhatIsIt />
       <Mailing />
+      <WhoIsIt />
     </div>
   );
 }
