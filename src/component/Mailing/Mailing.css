@@ -1,0 +1,122 @@
+.mailing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  overflow: visible;
+}
+
+.mailing__container {
+  background: url(../../images/mailinh_bg.png) no-repeat center;
+  min-width: 1463px;
+  min-height: 900px;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.mailing__container::before {
+  content: '';
+  position: absolute;
+  background: url(../../images/letter.png) no-repeat center;
+  background-size: cover;
+  width: 271px;
+  height: 218px;
+  top: 61px;
+  left: -74px;
+  transform: rotate(-8.44deg);
+}
+
+.mailing__container::after {
+  content: '';
+  position: absolute;
+  background: url(../../images/chat.png) no-repeat center;
+  background-size: cover;
+  width: 221px;
+  height: 166px;
+  bottom: 110px;
+  right: -28px;
+}
+
+.mailing__title {
+  margin: 80px 0 0;
+  max-width: 906px;
+  text-align: center;
+  font-family: "EastmanBold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 86px;
+}
+
+.mailing__card-wrapper {
+  box-sizing: border-box;
+  max-width: 1463px;
+  padding: 0 216px;
+  margin: 70px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.mailing__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 386px;
+  min-width: 112px;
+  margin-bottom: 60px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.mailing__card:not(:nth-child(3n)) {
+  margin-right: 50px;
+}
+
+.mailing__card:last-child {
+  margin-right: 0;
+}
+
+.mailing__card-title {
+  margin: 0 0 16px;
+  font-family: "EastmanBold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  color: #fbd748;
+  text-align: center;
+}
+
+.mailing__card-disriprion {
+  margin: 0;
+  font-family: "EastmanRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.mailing__button {
+  margin-top: 20px;
+  cursor: pointer;
+  border: 0;
+  padding: 24px 48px;
+  background: linear-gradient(91.65deg, #93e736 -28.46%, #13a16c 105.66%);
+  border-radius: 50px;
+  font-family: "EastmanMedium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  transition: opacity 0.2s linear;
+}
+
+.mailing__button:hover {
+  opacity: 0.8;
+}
+
