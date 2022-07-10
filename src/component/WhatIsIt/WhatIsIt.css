@@ -1,10 +1,12 @@
 .what-is-it {
   padding-left: calc(15px + (329 - 15) * ((100vw - 360px) / (1920 - 360)));
+  padding-bottom: 190px;
 }
 
 .what-is-it__container {
   max-width: 1490px;
   display: flex;
+  position: relative;
 }
 
 .what-is-it__text-wrapper {
@@ -41,6 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .what-is-it__circle {
@@ -54,7 +57,7 @@
 
 .what-is-it__circle::before {
   position: absolute;
-  content: '';
+  content: "";
   background: url(../../images/three_cirсle.png) no-repeat center;
   object-fit: fill;
   width: 933px;
@@ -65,4 +68,80 @@
 
 .what-is-it__circle__text-on-circle {
   position: absolute;
+  margin: 0;
+  font-family: "EastmanMedium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 32px;
+  background-color: white;
+  box-shadow: 0px 0px 1px rgba(0, 20, 51, 0.3),
+    0px 6px 16px rgba(0, 20, 51, 0.15);
+  border-radius: 10px;
+  z-index: 2;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.what-is-it__circle__text-on-circle_type-1 {
+  top: 116px;
+  left: 900px;
+  width: 213px;
+}
+
+.what-is-it__circle__text-on-circle_type-2 {
+  width: 278px;
+  top: 155px;
+  right: 54px;
+}
+
+.what-is-it__circle__text-on-circle_type-3 {
+  width: 418px;
+  top: 322px;
+  right: 172px;
+}
+
+.what-is-it__bell {
+  z-index: 2;
+  position: absolute;
+  background: url(../../images/bell.png) no-repeat center;
+  background-size: cover;
+  width: 109px;
+  height: 114px;
+  top: 34px;
+  left: 819px;
+}
+
+.what-is-it__chat {
+  position: absolute;
+  background: url(../../images/chat.png) no-repeat center;
+  background-size: cover;
+  width: 125px;
+  height: 94px;
+  top: 29px;
+  right: 153px;
+}
+
+.what-is-it__like {
+  position: absolute;
+  background: url(../../images/like_small.png) no-repeat center;
+  background-size: cover;
+  width: 97px;
+  height: 72px;
+  top: 500px;
+  right: 538px;
+  transform: rotate(-23.07deg);
+}
+
+.what-is-it__rupor {
+  z-index: 2;
+  position: absolute;
+  background: url(../../images/rupor_left.png) no-repeat center;
+  background-size: cover;
+  width: 172px;
+  height: 164px;
+  top: 372px;
+  right: 28px;
+  transform: rotate(11.96deg);
 }

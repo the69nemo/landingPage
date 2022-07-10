@@ -27,10 +27,20 @@ function WhatIsIt() {
         </div>
         <div className="what-is-it__image-wrapper">
           <div className="what-is-it__circle" />
-          <div className="what-is-it__circle__text-on-circle type-1"></div>
-          <div className="what-is-it__circle__text-on-circle type-2"></div>
-          <div className="what-is-it__circle__text-on-circle type-3"></div>
         </div>
+        <p className="what-is-it__circle__text-on-circle what-is-it__circle__text-on-circle_type-1">
+          Рассылка 1 раз в месяц
+        </p>
+        <p className="what-is-it__circle__text-on-circle what-is-it__circle__text-on-circle_type-2">
+          По итогам вы получаете удобные гайды
+        </p>
+        <p className="what-is-it__circle__text-on-circle what-is-it__circle__text-on-circle_type-3">
+          Каждый выпуск посвящен отдельному бизнес-процессу
+        </p>
+        <div className="what-is-it__bell" />
+        <div className="what-is-it__chat" />
+        <div className="what-is-it__like" />
+        <div className="what-is-it__rupor" />
       </div>
     </section>
   );
