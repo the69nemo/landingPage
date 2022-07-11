@@ -1,0 +1,54 @@
+.our-products {
+  padding-left: calc(15px + (199 - 15) * ((100vw - 360px) / (1920 - 360)));
+}
+
+.our-products__container {
+  max-width: 1520px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-products__text-wrapper {
+  max-width: 650px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.our-products__title {
+  margin: 0 0 30px;
+  max-width: 493px;
+  font-family: "EastmanBold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 44px;
+  /* color: #fff; */
+}
+
+.our-products__discription {
+  margin: 0;
+  max-width: 483px;
+  font-family: "EastmanRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.our-products__links-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 73px 159px;
+}
+
+/* .our-products__mobile {
+  grid-column: 1/2;
+  grid-row: 1/2;
+} */
+
+/* .our-products__account {
+  grid-column: 2/3;
+  grid-row: 1/2;
+} */
