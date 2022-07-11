@@ -7,6 +7,7 @@ import AboutUs from "../AboutUs/AboutUs";
 import WhatIsIt from "../WhatIsIt/WhatIsIt";
 import Mailing from "../Mailing/Mailing";
 import WhoIsIt from "../WhoIsIt/WhoIsIt";
+import OurProducts from "../OurProducts/OurProducts";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <WhatIsIt />
       <Mailing />
       <WhoIsIt />
+      <OurProducts />
     </div>
   );
 }
