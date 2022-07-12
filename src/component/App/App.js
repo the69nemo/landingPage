@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import "./App.css";
 import Header from "../Header/Header";
 import Promo from "../Promo/Promo";
@@ -8,8 +9,13 @@ import WhatIsIt from "../WhatIsIt/WhatIsIt";
 import Mailing from "../Mailing/Mailing";
 import WhoIsIt from "../WhoIsIt/WhoIsIt";
 import OurProducts from "../OurProducts/OurProducts";
+import Popup from '../Popup/Popup';
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+
+
   return (
     <div className="page">
       <Header />
@@ -21,6 +27,7 @@ function App() {
       <Mailing />
       <WhoIsIt />
       <OurProducts />
+      <Popup />
     </div>
   );
 }
