@@ -1,13 +1,13 @@
 import React from "react";
 import "./Popup.css";
 
-function Popup() {
+function Popup({ isOpen, handlePopupOpened }) {
   return (
-    <section className="popup">
+    <section className={`popup ${isOpen && 'popup__opened'}`}>
       <div className="popup__container">
         <p className="popup__title">Заполните форму чтобы получать</p>
         <p className="popup__subtitle">Все последние новости</p>
-        <button className="popup__close-button" type="button">
+        <button className="popup__close-button" type="button" onClick={handlePopupOpened}>
           X
         </button>
         <form className="popup__form">

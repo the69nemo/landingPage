@@ -1,5 +1,5 @@
 .popup {
-  visibility: visible;
+  visibility: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,6 +9,7 @@
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
 }
 
 .popup__opened {
@@ -25,6 +26,7 @@
   color: #fff;
   display: flex;
   flex-direction: column;
+
 }
 
 .popup__title {
@@ -78,6 +80,5 @@
   border-radius: 10px;
   background-color: #293744;
   color: #fff;
-  transition: .3s ease-in-out;
   outline-color: #fbd748;
 }

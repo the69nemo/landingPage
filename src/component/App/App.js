@@ -14,11 +14,15 @@ import Popup from '../Popup/Popup';
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
-
+  const handlePopupOpened = () => {
+    setIsOpen(!isOpen)
+  }
 
   return (
     <div className="page">
-      <Header />
+      <Header
+        handlePopupOpened={handlePopupOpened}
+      />
       <Promo />
       <BuisnessProblem />
       <PhotoSlider />
@@ -27,7 +31,10 @@ function App() {
       <Mailing />
       <WhoIsIt />
       <OurProducts />
-      <Popup />
+      <Popup
+        isOpen={isOpen}
+        handlePopupOpened={handlePopupOpened}
+      />
     </div>
   );
 }
