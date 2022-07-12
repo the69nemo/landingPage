@@ -39,16 +39,34 @@
 
 .our-products__links-wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(330px, 356px));
   gap: 73px 159px;
 }
 
-/* .our-products__mobile {
-  grid-column: 1/2;
-  grid-row: 1/2;
-} */
+.our-products__link {
+  text-decoration: none;
+  color: #000;
+  font-family: "EastmanMedium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
 
-/* .our-products__account {
-  grid-column: 2/3;
-  grid-row: 1/2;
-} */
+.our-products__link-text {
+  text-align: center;
+}
+
+.our-products__online-register {
+  position: relative;
+}
+
+.our-products__online-register::before {
+  position: absolute;
+  content: '';
+  bottom: 120px;
+  left: 9px;
+  background: url(../../images/online_register.png) no-repeat center;
+  width: 91px;
+  height: 181px;
+}

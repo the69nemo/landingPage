@@ -17,23 +17,23 @@ function OurProducts() {
           </p>
         </div>
         <div className="our-products__links-wrapper">
-          <a className="our-products__mobile" href="#">
-            <img src={MobileAppIcon} alt="mobile app" />
-            <p className="our-products__mobile-text">Мобильное приложение</p>
+          <a className="our-products__link our-products__mobile" href="#">
+            <img src={MobileAppIcon} alt="mobile app" className="our-products__link-image"/>
+            <p className="our-products__link-text">Мобильное приложение</p>
           </a>
-          <a className="our-products__account" href="#">
-            <img src={AccountIcon} alt="account page" />
-            <p className="our-products__account-text">Учетная система</p>
+          <a className="our-products__link our-products__account" href="#">
+            <img src={AccountIcon} alt="account page" className="our-products__link-image"/>
+            <p className="our-products__link-text">Учетная система</p>
           </a>
-          <a className="our-products__online-register" href="#">
-            <img src={AccountIcon} alt="online-register page" />
-            <p className="our-products___online-register-text">
+          <a className="our-products__link our-products__online-register" href="#">
+            <img src={AccountIcon} alt="online-register page" className="our-products__link-image"/>
+            <p className="our-products__link-text">
               Онлайн-запись для сайта и социальных сетей
             </p>
           </a>
-          <a className="our-products__online-pay" href="#">
-            <img src={OnlinePayIcon} alt="online-pay page" />
-            <p className="our-products__online-pay-text">Онлайн-оплата</p>
+          <a className="our-products__link our-products__online-pay" href="#">
+            <img src={OnlinePayIcon} alt="online-pay page" className="our-products__link-image"/>
+            <p className="our-products__link-text">Онлайн-оплата</p>
           </a>
         </div>
         <div className="our-products__circle" />
