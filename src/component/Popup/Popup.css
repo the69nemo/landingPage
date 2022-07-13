@@ -30,7 +30,7 @@
 }
 
 .popup__title {
-  margin: 0 0 20px;
+  margin: 0 0 15px;
   font-family: "EastmanRegular";
   font-style: normal;
   font-weight: 400;
@@ -52,15 +52,15 @@
   padding: 15px 20px;
   border-radius: 50%;
   border: 0;
-  background-color: #fbd748;;
+  background-color: #fbd748;
   top: -30px;
   right: -65px;
   cursor: pointer;
-  transition: opacity .3s linear;
+  transition: transform .4s ease-in-out;
 }
 
 .popup__close-button:hover {
-  opacity: 0.9;
+  transform: scale(0.9);
 }
 
 .popup__form {
@@ -81,4 +81,37 @@
   background-color: #293744;
   color: #fff;
   outline-color: #fbd748;
+}
+
+.popup__submit-button {
+  font-family: 'EastmanBold';
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 0;
+  background-color: #fbd748;
+  cursor: pointer;
+  transition: transform .4s linear;
+}
+
+.popup__submit-button:hover {
+  transform: rotate(.8deg) scale(.9);
+}
+
+.popup__form-agreement {
+  margin: 15px 0 0;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.popup__form-agreement-link {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px dashed #fff;
+}
+
+.popup__form-agreement-link:hover {
+  border-bottom: 0;
 }

@@ -1,6 +1,6 @@
 import './Mailing.css';
 
-function Mailing() {
+function Mailing({ handlePopupOpened }) {
   return (
     <section className='mailing'>
       <div className='mailing__container'>
@@ -29,7 +29,7 @@ function Mailing() {
             <p className='mailing__card-disriprion'>Поучительная история успеха или <br /> предпринимательской ошибки</p>
           </div>
         </div>
-        <button className='mailing__button' type='button'>Подписаться на рассылку</button>
+        <button className='mailing__button' onClick={handlePopupOpened} type='button'>Подписаться на рассылку</button>
         <div className='mailing__letter' />
         <div className='mailing__chat' />
       </div>

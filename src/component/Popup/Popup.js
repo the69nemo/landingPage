@@ -5,7 +5,7 @@ function Popup({ isOpen, handlePopupOpened }) {
   return (
     <section className={`popup ${isOpen && 'popup__opened'}`}>
       <div className="popup__container">
-        <p className="popup__title">Заполните форму чтобы получать</p>
+        <p className="popup__title">Введите Ваш email</p>
         <p className="popup__subtitle">Все последние новости</p>
         <button className="popup__close-button" type="button" onClick={handlePopupOpened}>
           X
@@ -24,7 +24,7 @@ function Popup({ isOpen, handlePopupOpened }) {
           </button>
           <div className="popup__form-agreement">
             <p className="popup__form-agreement-text">Нажимая кнопку, вы даете согласие на
-              <a className="popup__form-agreement-link" target='_blank'>обработку персональных данных</a>
+              <a className="popup__form-agreement-link" target='_blank' href="#"> обработку персональных данных</a>
             </p>
           </div>
         </form>

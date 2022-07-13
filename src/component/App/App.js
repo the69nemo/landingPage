@@ -28,7 +28,9 @@ function App() {
       <PhotoSlider />
       <AboutUs />
       <WhatIsIt />
-      <Mailing />
+      <Mailing
+        handlePopupOpened={handlePopupOpened}
+      />
       <WhoIsIt />
       <OurProducts />
       <Popup
