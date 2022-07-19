@@ -1,3 +1,4 @@
+import React from 'react';
 import "./OurProducts.css";
 import MobileAppIcon from "../../images/mobile_app.png";
 import AccountIcon from "../../images/account.png";

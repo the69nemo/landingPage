@@ -1,3 +1,4 @@
+import React from 'react';
 import "./AboutUs.css";
 import Earth from "../../images/earth.png";
 

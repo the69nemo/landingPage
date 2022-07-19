@@ -1,3 +1,4 @@
+import React from 'react';
 import "./PhotoSlider.css";
 import PhotoCard from "../PhotoCard/PhotoCard";
 import { sliderData } from "../../utils/photoSliderData";

@@ -1,3 +1,4 @@
+import React from 'react';
 import "./WhoIsIt.css";
 
 function WhoIsIt() {
